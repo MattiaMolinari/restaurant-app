@@ -20,7 +20,7 @@ export default function Reviews({
   return (
     <>
       <h2 id={id} className="section-title">
-        Reviews
+        REVIEWS
       </h2>
       <button onClick={() => showReview(1)}>Previous</button>
       <div>

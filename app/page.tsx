@@ -2,6 +2,7 @@
 import { menu, categories, reviews } from "./data";
 import Menu from "./menu";
 import Reviews from "./review";
+import Reservation from "./reservation";
 import HoursAndLocation from "./hours-location";
 import { useState } from "react";
 
@@ -22,6 +23,7 @@ export default function Home() {
       <Menu id="menu" menu={menu} categories={categories} />
       <HoursAndLocation id="hours-location" />
       <Reviews id="reviews" reviews={reviews} />
+      <Reservation id="reservation" />
       <footer>
         <ul>
           <li>Phone number: +00 0000000</li>
