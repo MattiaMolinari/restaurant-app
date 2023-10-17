@@ -7,6 +7,12 @@ export interface food {
   description: string;
   image: string;
 }
+export interface review {
+  id: string;
+  name: string;
+  points: number;
+  description: string;
+}
 
 // declaring menu as array of food type objects
 export const menu: Array<food> = [
@@ -121,3 +127,41 @@ export const menu: Array<food> = [
 ];
 
 export const categories: Array<string> = ["all", "entree", "main", "dessert"];
+
+export const reviews: Array<review> = [
+  {
+    id: "r1",
+    name: "John",
+    points: 8,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis augue consequat, scelerisque ex eget, commodo nisl. Pellentesque lacus tortor, rutrum quis iaculis quis, pretium vitae eros.",
+  },
+  {
+    id: "r2",
+    name: "Anna",
+    points: 10,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis augue consequat, scelerisque ex eget, commodo nisl. Pellentesque lacus tortor, rutrum quis iaculis quis, pretium vitae eros.",
+  },
+  {
+    id: "r3",
+    name: "Lisa",
+    points: 8,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis augue consequat, scelerisque ex eget, commodo nisl. Pellentesque lacus tortor, rutrum quis iaculis quis, pretium vitae eros.",
+  },
+  {
+    id: "r4",
+    name: "Ben",
+    points: 7,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis augue consequat, scelerisque ex eget, commodo nisl. Pellentesque lacus tortor, rutrum quis iaculis quis, pretium vitae eros.",
+  },
+  {
+    id: "r5",
+    name: "Frank",
+    points: 9,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis augue consequat, scelerisque ex eget, commodo nisl. Pellentesque lacus tortor, rutrum quis iaculis quis, pretium vitae eros.",
+  },
+];

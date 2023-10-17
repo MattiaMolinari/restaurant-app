@@ -1,6 +1,7 @@
 "use client";
-import { menu, categories } from "./data";
+import { menu, categories, reviews } from "./data";
 import Menu from "./menu";
+import Reviews from "./review";
 import HoursAndLocation from "./hours-location";
 import { useState } from "react";
 
@@ -20,6 +21,7 @@ export default function Home() {
       <p>We are a restaurant that doesn{"'"}t exist </p>
       <Menu id="menu" menu={menu} categories={categories} />
       <HoursAndLocation id="hours-location" />
+      <Reviews id="reviews" reviews={reviews} />
       <footer>
         <ul>
           <li>Phone number: +00 0000000</li>
