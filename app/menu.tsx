@@ -41,7 +41,7 @@ export default function Menu({
           );
         })}
       </div>
-      <div className="grid grid-cols-2 gap-10 px-24 justify-items-center content-center">
+      <div className="grid grid-cols-2 gap-10 justify-items-center content-center">
         {menuShow.map((food) => {
           // eslint-disable-next-line react/jsx-key
           return <Food food={food} />;

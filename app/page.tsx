@@ -11,7 +11,7 @@ export default function Home() {
   const [homePage, setHomePage] = useState();
 
   return (
-    <div id="top" className="font-sans bg-black text-white">
+    <div id="top" className="font-serif bg-black text-white">
       <div className="flex justify-center py-12">
         <figure className="">
           <img className="w-24" src="favicon.ico" alt="Restaurant's logo" />
@@ -43,7 +43,7 @@ export default function Home() {
           src="/../images/restaurant.jpg"
           className="w-screen"
         />
-        <p className="text-sm text-justify px-10 py-10">
+        <p className="text-sm px-10 py-10 text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
           venenatis augue consequat, scelerisque ex eget, commodo nisl.
           Pellentesque lacus tortor, rutrum quis iaculis quis, pretium vitae
@@ -58,11 +58,12 @@ export default function Home() {
           tincidunt.
         </p>
       </div>
-
-      <Menu id="menu" menu={menu} categories={categories} />
-      <HoursAndLocation id="hours-location" />
-      <Reviews id="reviews" reviews={reviews} />
-      <Reservation id="reservation" />
+      <div className="px-12 md:px-24 lg:px-48">
+        <Menu id="menu" menu={menu} categories={categories} />
+        <HoursAndLocation id="hours-location" />
+        <Reviews id="reviews" reviews={reviews} />
+        <Reservation id="reservation" />
+      </div>
       <footer>
         <ul>
           <li>Phone number: +00 0000000</li>
