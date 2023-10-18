@@ -1,3 +1,6 @@
+export const lorem: string =
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis augue consequat, scelerisque ex eget, commodo nisl. Pellentesque lacus tortor, rutrum quis iaculis quis, pretium vitae eros. Phasellus efficitur eleifend luctus. Morbi auctor auctor dui vel volutpat. Donec venenatis mattis odio et maximus. In sapien urna, posuere sit amet metus eu, accumsan lacinia arcu. Aliquam a accumsan ipsum. Sed lobortis nisl sit amet arcu tincidunt, id sagittis odio laoreet. Nam quis euismod felis. Vestibulum consequat porta justo, vel tristique ex semper id. Proin arcu metus, auctor nec porta non, viverra at sapien. Mauris rhoncus tellus ligula, eu venenatis magna rhoncus vel. Fusce iaculis lectus vel dui vehicula, at laoreet dolor tincidunt.";
+
 // declaring food type interface
 export interface food {
   id: string;
@@ -21,8 +24,7 @@ export const menu: Array<food> = [
     name: "Appetizers",
     category: "entree",
     price: 8,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis augue consequat, scelerisque ex eget, commodo nisl. Pellentesque lacus tortor, rutrum quis iaculis quis, pretium vitae eros. Phasellus efficitur eleifend luctus. Morbi auctor auctor dui vel volutpat. Donec venenatis mattis odio et maximus. In sapien urna, posuere sit amet metus eu, accumsan lacinia arcu. Aliquam a accumsan ipsum. Sed lobortis nisl sit amet arcu tincidunt, id sagittis odio laoreet. Nam quis euismod felis. Vestibulum consequat porta justo, vel tristique ex semper id. Proin arcu metus, auctor nec porta non, viverra at sapien. Mauris rhoncus tellus ligula, eu venenatis magna rhoncus vel. Fusce iaculis lectus vel dui vehicula, at laoreet dolor tincidunt. ",
+    description: lorem,
     image: "/../images/appetizers.jpg",
   },
   {
@@ -30,8 +32,7 @@ export const menu: Array<food> = [
     name: "Bruschette",
     category: "entree",
     price: 8,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis augue consequat, scelerisque ex eget, commodo nisl. Pellentesque lacus tortor, rutrum quis iaculis quis, pretium vitae eros. Phasellus efficitur eleifend luctus. Morbi auctor auctor dui vel volutpat. Donec venenatis mattis odio et maximus. In sapien urna, posuere sit amet metus eu, accumsan lacinia arcu. Aliquam a accumsan ipsum. Sed lobortis nisl sit amet arcu tincidunt, id sagittis odio laoreet. Nam quis euismod felis. Vestibulum consequat porta justo, vel tristique ex semper id. Proin arcu metus, auctor nec porta non, viverra at sapien. Mauris rhoncus tellus ligula, eu venenatis magna rhoncus vel. Fusce iaculis lectus vel dui vehicula, at laoreet dolor tincidunt. ",
+    description: lorem,
     image: "/../images/bruschette.jpg",
   },
   {
@@ -39,8 +40,7 @@ export const menu: Array<food> = [
     name: "Buffalo wings",
     category: "main",
     price: 12,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis augue consequat, scelerisque ex eget, commodo nisl. Pellentesque lacus tortor, rutrum quis iaculis quis, pretium vitae eros. Phasellus efficitur eleifend luctus. Morbi auctor auctor dui vel volutpat. Donec venenatis mattis odio et maximus. In sapien urna, posuere sit amet metus eu, accumsan lacinia arcu. Aliquam a accumsan ipsum. Sed lobortis nisl sit amet arcu tincidunt, id sagittis odio laoreet. Nam quis euismod felis. Vestibulum consequat porta justo, vel tristique ex semper id. Proin arcu metus, auctor nec porta non, viverra at sapien. Mauris rhoncus tellus ligula, eu venenatis magna rhoncus vel. Fusce iaculis lectus vel dui vehicula, at laoreet dolor tincidunt. ",
+    description: lorem,
     image: "/../images/buffalo-wings.jpg",
   },
   {
@@ -48,8 +48,7 @@ export const menu: Array<food> = [
     name: "Cake",
     category: "dessert",
     price: 6,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis augue consequat, scelerisque ex eget, commodo nisl. Pellentesque lacus tortor, rutrum quis iaculis quis, pretium vitae eros. Phasellus efficitur eleifend luctus. Morbi auctor auctor dui vel volutpat. Donec venenatis mattis odio et maximus. In sapien urna, posuere sit amet metus eu, accumsan lacinia arcu. Aliquam a accumsan ipsum. Sed lobortis nisl sit amet arcu tincidunt, id sagittis odio laoreet. Nam quis euismod felis. Vestibulum consequat porta justo, vel tristique ex semper id. Proin arcu metus, auctor nec porta non, viverra at sapien. Mauris rhoncus tellus ligula, eu venenatis magna rhoncus vel. Fusce iaculis lectus vel dui vehicula, at laoreet dolor tincidunt. ",
+    description: lorem,
     image: "/../images/cake.jpg",
   },
   {
@@ -57,8 +56,7 @@ export const menu: Array<food> = [
     name: "Fried chicken",
     category: "main",
     price: 15,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis augue consequat, scelerisque ex eget, commodo nisl. Pellentesque lacus tortor, rutrum quis iaculis quis, pretium vitae eros. Phasellus efficitur eleifend luctus. Morbi auctor auctor dui vel volutpat. Donec venenatis mattis odio et maximus. In sapien urna, posuere sit amet metus eu, accumsan lacinia arcu. Aliquam a accumsan ipsum. Sed lobortis nisl sit amet arcu tincidunt, id sagittis odio laoreet. Nam quis euismod felis. Vestibulum consequat porta justo, vel tristique ex semper id. Proin arcu metus, auctor nec porta non, viverra at sapien. Mauris rhoncus tellus ligula, eu venenatis magna rhoncus vel. Fusce iaculis lectus vel dui vehicula, at laoreet dolor tincidunt. ",
+    description: lorem,
     image: "/../images/fried-chicken.jpg",
   },
   {
@@ -66,8 +64,7 @@ export const menu: Array<food> = [
     name: "Grilled salmon",
     category: "main",
     price: 18,
-    description:
-      "      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis augue consequat, scelerisque ex eget, commodo nisl. Pellentesque lacus tortor, rutrum quis iaculis quis, pretium vitae eros. Phasellus efficitur eleifend luctus. Morbi auctor auctor dui vel volutpat. Donec venenatis mattis odio et maximus. In sapien urna, posuere sit amet metus eu, accumsan lacinia arcu. Aliquam a accumsan ipsum. Sed lobortis nisl sit amet arcu tincidunt, id sagittis odio laoreet. Nam quis euismod felis. Vestibulum consequat porta justo, vel tristique ex semper id. Proin arcu metus, auctor nec porta non, viverra at sapien. Mauris rhoncus tellus ligula, eu venenatis magna rhoncus vel. Fusce iaculis lectus vel dui vehicula, at laoreet dolor tincidunt. ",
+    description: lorem,
     image: "/../images/grilled-salmon.jpg",
   },
   {
@@ -75,8 +72,7 @@ export const menu: Array<food> = [
     name: "Hamburger and fries",
     category: "main",
     price: 15,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis augue consequat, scelerisque ex eget, commodo nisl. Pellentesque lacus tortor, rutrum quis iaculis quis, pretium vitae eros. Phasellus efficitur eleifend luctus. Morbi auctor auctor dui vel volutpat. Donec venenatis mattis odio et maximus. In sapien urna, posuere sit amet metus eu, accumsan lacinia arcu. Aliquam a accumsan ipsum. Sed lobortis nisl sit amet arcu tincidunt, id sagittis odio laoreet. Nam quis euismod felis. Vestibulum consequat porta justo, vel tristique ex semper id. Proin arcu metus, auctor nec porta non, viverra at sapien. Mauris rhoncus tellus ligula, eu venenatis magna rhoncus vel. Fusce iaculis lectus vel dui vehicula, at laoreet dolor tincidunt. ",
+    description: lorem,
     image: "/../images/hamburger-and-fries.jpg",
   },
   {
@@ -84,8 +80,7 @@ export const menu: Array<food> = [
     name: "Icecream",
     category: "dessert",
     price: 5,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis augue consequat, scelerisque ex eget, commodo nisl. Pellentesque lacus tortor, rutrum quis iaculis quis, pretium vitae eros. Phasellus efficitur eleifend luctus. Morbi auctor auctor dui vel volutpat. Donec venenatis mattis odio et maximus. In sapien urna, posuere sit amet metus eu, accumsan lacinia arcu. Aliquam a accumsan ipsum. Sed lobortis nisl sit amet arcu tincidunt, id sagittis odio laoreet. Nam quis euismod felis. Vestibulum consequat porta justo, vel tristique ex semper id. Proin arcu metus, auctor nec porta non, viverra at sapien. Mauris rhoncus tellus ligula, eu venenatis magna rhoncus vel. Fusce iaculis lectus vel dui vehicula, at laoreet dolor tincidunt. ",
+    description: lorem,
     image: "/../images/icecream.jpg",
   },
   {
@@ -93,8 +88,7 @@ export const menu: Array<food> = [
     name: "Meatballs",
     category: "main",
     price: 12,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis augue consequat, scelerisque ex eget, commodo nisl. Pellentesque lacus tortor, rutrum quis iaculis quis, pretium vitae eros. Phasellus efficitur eleifend luctus. Morbi auctor auctor dui vel volutpat. Donec venenatis mattis odio et maximus. In sapien urna, posuere sit amet metus eu, accumsan lacinia arcu. Aliquam a accumsan ipsum. Sed lobortis nisl sit amet arcu tincidunt, id sagittis odio laoreet. Nam quis euismod felis. Vestibulum consequat porta justo, vel tristique ex semper id. Proin arcu metus, auctor nec porta non, viverra at sapien. Mauris rhoncus tellus ligula, eu venenatis magna rhoncus vel. Fusce iaculis lectus vel dui vehicula, at laoreet dolor tincidunt. ",
+    description: lorem,
     image: "/../images/meatballs.jpg",
   },
   {
@@ -102,8 +96,7 @@ export const menu: Array<food> = [
     name: "Milkshake",
     category: "dessert",
     price: 5,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis augue consequat, scelerisque ex eget, commodo nisl. Pellentesque lacus tortor, rutrum quis iaculis quis, pretium vitae eros. Phasellus efficitur eleifend luctus. Morbi auctor auctor dui vel volutpat. Donec venenatis mattis odio et maximus. In sapien urna, posuere sit amet metus eu, accumsan lacinia arcu. Aliquam a accumsan ipsum. Sed lobortis nisl sit amet arcu tincidunt, id sagittis odio laoreet. Nam quis euismod felis. Vestibulum consequat porta justo, vel tristique ex semper id. Proin arcu metus, auctor nec porta non, viverra at sapien. Mauris rhoncus tellus ligula, eu venenatis magna rhoncus vel. Fusce iaculis lectus vel dui vehicula, at laoreet dolor tincidunt. ",
+    description: lorem,
     image: "/../images/milkshake.jpg",
   },
   {
@@ -111,8 +104,7 @@ export const menu: Array<food> = [
     name: "Ribs",
     category: "main",
     price: 18,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis augue consequat, scelerisque ex eget, commodo nisl. Pellentesque lacus tortor, rutrum quis iaculis quis, pretium vitae eros. Phasellus efficitur eleifend luctus. Morbi auctor auctor dui vel volutpat. Donec venenatis mattis odio et maximus. In sapien urna, posuere sit amet metus eu, accumsan lacinia arcu. Aliquam a accumsan ipsum. Sed lobortis nisl sit amet arcu tincidunt, id sagittis odio laoreet. Nam quis euismod felis. Vestibulum consequat porta justo, vel tristique ex semper id. Proin arcu metus, auctor nec porta non, viverra at sapien. Mauris rhoncus tellus ligula, eu venenatis magna rhoncus vel. Fusce iaculis lectus vel dui vehicula, at laoreet dolor tincidunt. ",
+    description: lorem,
     image: "/../images/ribs.jpg",
   },
   {
@@ -120,8 +112,7 @@ export const menu: Array<food> = [
     name: "Tiramisù",
     category: "dessert",
     price: 6,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis augue consequat, scelerisque ex eget, commodo nisl. Pellentesque lacus tortor, rutrum quis iaculis quis, pretium vitae eros. Phasellus efficitur eleifend luctus. Morbi auctor auctor dui vel volutpat. Donec venenatis mattis odio et maximus. In sapien urna, posuere sit amet metus eu, accumsan lacinia arcu. Aliquam a accumsan ipsum. Sed lobortis nisl sit amet arcu tincidunt, id sagittis odio laoreet. Nam quis euismod felis. Vestibulum consequat porta justo, vel tristique ex semper id. Proin arcu metus, auctor nec porta non, viverra at sapien. Mauris rhoncus tellus ligula, eu venenatis magna rhoncus vel. Fusce iaculis lectus vel dui vehicula, at laoreet dolor tincidunt. ",
+    description: lorem,
     image: "/../images/tiramisu.jpg",
   },
 ];
@@ -133,35 +124,30 @@ export const reviews: Array<review> = [
     id: "r1",
     name: "John",
     points: 8,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis augue consequat, scelerisque ex eget, commodo nisl. Pellentesque lacus tortor, rutrum quis iaculis quis, pretium vitae eros.",
+    description: lorem,
   },
   {
     id: "r2",
     name: "Anna",
     points: 10,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis augue consequat, scelerisque ex eget, commodo nisl. Pellentesque lacus tortor, rutrum quis iaculis quis, pretium vitae eros.",
+    description: lorem,
   },
   {
     id: "r3",
     name: "Lisa",
     points: 8,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis augue consequat, scelerisque ex eget, commodo nisl. Pellentesque lacus tortor, rutrum quis iaculis quis, pretium vitae eros.",
+    description: lorem,
   },
   {
     id: "r4",
     name: "Ben",
     points: 7,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis augue consequat, scelerisque ex eget, commodo nisl. Pellentesque lacus tortor, rutrum quis iaculis quis, pretium vitae eros.",
+    description: lorem,
   },
   {
     id: "r5",
     name: "Frank",
     points: 9,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis augue consequat, scelerisque ex eget, commodo nisl. Pellentesque lacus tortor, rutrum quis iaculis quis, pretium vitae eros.",
+    description: lorem,
   },
 ];

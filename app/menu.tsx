@@ -28,8 +28,7 @@ export default function Menu({
       <h2 id={id} className="section-title">
         MENU
       </h2>
-      <div className="underline"></div>
-      <div className="categories-container">
+      <div className="space-x-2 text-center h-20">
         {categories.map((category) => {
           return (
             <button
@@ -42,7 +41,7 @@ export default function Menu({
           );
         })}
       </div>
-      <div className="menu-section">
+      <div className="grid grid-cols-2 gap-10 px-24 justify-items-center content-center">
         {menuShow.map((food) => {
           // eslint-disable-next-line react/jsx-key
           return <Food food={food} />;
@@ -55,16 +54,20 @@ export default function Menu({
 // food component
 function Food({ food }: { food: food }) {
   return (
-    <article key={food.id} className="menu-item">
-      <figure>
-        <img src={food.image} alt={food.name} className="photo" />
+    <article key={food.id} className="py-4 text-justify">
+      <figure className="">
+        <img
+          src={food.image}
+          alt={food.name}
+          className="object-cover h-96 w-screen border border-white rounded-lg"
+        />
       </figure>
-      <div className="item-info">
-        <header>
-          <h4>{food.name}</h4>
-          <h4 className="price">${food.price}</h4>
+      <div className="">
+        <header className="flex justify-between py-4 font-bold">
+          <h4 className="">{food.name}</h4>
+          <h4 className="">${food.price}</h4>
         </header>
-        <p className="item-text">{food.description}</p>
+        <p className="italic text-sm w-fit ">{food.description}</p>
       </div>
     </article>
   );
